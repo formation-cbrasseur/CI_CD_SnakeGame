@@ -1,7 +1,6 @@
 <?php
 
 require_once WEB_ROOT."models/Player.php";
-require_once WEB_ROOT."models/Database.php";
 
 class Game{
 

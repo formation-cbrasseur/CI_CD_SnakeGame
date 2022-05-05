@@ -1,7 +1,5 @@
 <?php
 
-require_once WEB_ROOT."models/Database.php";
-
 class Player{
 
     private $name;
