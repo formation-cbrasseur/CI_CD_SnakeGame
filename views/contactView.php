@@ -1,4 +1,4 @@
 <div  id="home-page">
-    <a href="http://localhost/JeuSerpent/">Home</a> <br/>
+    <a href="http://localhost/SerpentGame/">Home</a> <br/>
     CONTACT PAGE MADE FOR ACCEPTANCE TESTS
 </div>

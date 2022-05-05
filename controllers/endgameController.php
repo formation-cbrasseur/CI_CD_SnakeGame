@@ -19,7 +19,7 @@ class endgameController extends Controller{
             $this->game = $_SESSION['game'];
         }
         else{
-            header("Location: /jeuserpent");
+            header("Location: /SerpentGame");
         }
     }
 

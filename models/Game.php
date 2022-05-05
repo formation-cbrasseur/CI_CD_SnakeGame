@@ -46,13 +46,13 @@ class Game{
         return $winner->getName() == $this->p1->getName() ? $this->p2 : $this->p1;
     }
 
-    public function save(): void{
-        $winner = $this->getWinner();
-        if($this->getWinner() === false){ return; }
-        $looser = $this->getLooser();
-        $data = ['winner' => $winner->getName(), 'looser' => $looser->getName()];
-        Database::getInstance()->insertData("INSERT INTO game_history (winner, looser) VALUES (:winner, :looser)", $data);
-    }
+    // public function save(): void{
+    //     $winner = $this->getWinner();
+    //     if($this->getWinner() === false){ return; }
+    //     $looser = $this->getLooser();
+    //     $data = ['winner' => $winner->getName(), 'looser' => $looser->getName()];
+    //     Database::getInstance()->insertData("INSERT INTO game_history (winner, looser) VALUES (:winner, :looser)", $data);
+    // }
 
     public function gridToHtml(): string{
         $html = "<table>";
@@ -77,7 +77,7 @@ class Game{
                 else{
                     $html .= "<td>".$count."</td>";
                 }
-                
+
                 $count += 1;
             }
             $html .= "</tr>";
@@ -86,7 +86,7 @@ class Game{
         return $html;
     }
 
-    
+
 
 }
 

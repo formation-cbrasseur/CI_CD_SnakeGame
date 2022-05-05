@@ -22,14 +22,14 @@ class gameController extends Controller{
             $this->game = new Game($_POST['p1'], $_POST['p2']);
         }
         else{
-            header('Location: /jeuserpent');
+            header('Location: /SerpentGame');
             die();
         }
         $_SESSION['game'] = $this->game;
     }
 
     public function endGame(){
-        $this->game->save();
+        // $this->game->save();
         header("Location: endgame");
     }
 

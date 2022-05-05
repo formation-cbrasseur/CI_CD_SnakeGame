@@ -16,7 +16,7 @@
                 <span class="p-score"><?php echo $this->getGame()->getP2()->getScore() ?> </span>
             </div>
         </div>
-        
+
     </div>
 
     <div id="play-control">
@@ -25,10 +25,10 @@
             <input type="hidden" name="action" value="play">
             <input type="submit" value="Lancer le dé">
         </form>
-        <form id="quit-form" action="/jeuserpent">
+        <form id="quit-form" action="/SerpentGame">
             <input type="submit" value="Quitter">
         </form>
     </div>
-    
+
 
 </div>
