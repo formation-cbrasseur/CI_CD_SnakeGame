@@ -7,7 +7,7 @@
 <div id="endgame-page">
     <h1>Victoire de <?php echo $this->getWinner()->getName();?> !</h1>
 
-    <form action="/SerpentGame" method="post">
+    <form action="/" method="post">
         <input type="submit" value="Accueil">
     </form>
 

@@ -25,7 +25,7 @@
             <input type="hidden" name="action" value="play">
             <input type="submit" value="Lancer le dé">
         </form>
-        <form id="quit-form" action="/SerpentGame">
+        <form id="quit-form" action="/">
             <input type="submit" value="Quitter">
         </form>
     </div>
