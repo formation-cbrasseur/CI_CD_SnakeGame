@@ -22,7 +22,7 @@
     <div id="play-control">
         <form id="play-form" action="" method="post">
             <h2><?php echo $this->getGame()->getCurrentPlayer()->getName()?> à toi de jouer !</h2>
-            <input type="hidden" name="action" value="play">
+            <input id="play" type="hidden" name="action" value="play">
             <input type="submit" value="Lancer le dé">
         </form>
         <form id="quit-form" action="/">
