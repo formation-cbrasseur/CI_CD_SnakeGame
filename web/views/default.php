@@ -12,7 +12,7 @@
     <title>Jeu Seprent Cédric BRASSEUR</title>
 </head>
 <body>
-    <h1>🐍 Jeu du Serpent Remade 🐍</h1>
+    <h1>🐍 Jeu du Serpent 🐍</h1>
     <?php echo $content_base; ?>
 </body>
 </html>
