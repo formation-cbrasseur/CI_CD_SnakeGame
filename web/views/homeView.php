@@ -1,5 +1,5 @@
 <div id="home-page">
-    <a href="/contact">CONTACT</a>
+    <a href="/snake/contact">CONTACT</a>
     <div style="width:100%;height:0;padding-bottom:68%;position:relative;"><iframe src="https://giphy.com/embed/3oFzmdjqH15YebLQ52" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
     <form action="game" method="post">
         <div class="input-wrapper text">
@@ -14,5 +14,8 @@
             <input id="submitPlayers" type="submit" value="Jouer !">
         </div>
     </form>
-
+    <div>
+        <label for="credit">Site réalisé par :</label>
+        <a href="https://github.com/Zagrios">Mathieu GRIES-PEROZ</a>
+    </div>
 </div>

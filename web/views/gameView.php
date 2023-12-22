@@ -23,7 +23,7 @@
         <form id="play-form" action="" method="post">
             <h2><?php echo $this->getGame()->getCurrentPlayer()->getName()?> à toi de jouer !</h2>
             <input id="play" type="hidden" name="action" value="play">
-            <input type="submit" value="Lancer le dé">
+            <input id="new_turn" type="submit" value="Lancer le dé">
         </form>
         <form id="quit-form" action="/">
             <input type="submit" value="Quitter">

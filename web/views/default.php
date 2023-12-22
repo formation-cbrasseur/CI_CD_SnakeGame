@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/style.css">
     <?php echo $style ? "<link rel='stylesheet' href='public/$style.css'>" : ""; ?>
-    <title>Jeu Serpent Cédric BRASSEUR</title>
+    <title>Jeu Serpent</title>
 </head>
 <body>
     <h1>🐍 Jeu du Serpent 🐍</h1>
