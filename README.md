@@ -6,3 +6,5 @@ Lancement CI
 17/06/2023 Heroku link : https://snake-game-59d921bb3f7b.herokuapp.com/
 
 Launch SonarCLoud Analysis
+
+Modif readme pour montrer la CI (sonar pas actif à ce moment)
