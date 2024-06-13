@@ -12,3 +12,5 @@ Modif readme pour montrer la CI (sonar pas actif à ce moment)
 Déploiement sur heroku 02/05/2024
 
 Analyse sonarCloud
+
+Testing CI
